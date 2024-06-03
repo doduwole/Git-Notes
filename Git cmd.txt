@@ -1,0 +1,83 @@
+#initial configuration
+git config --global user.name "David Oduwole"
+git config --global user.email doduwole@myseneca.ca
+git config --global init.default branch main
+
+#for help on cmd
+git help config
+
+#to clear out
+clear
+
+#change directory
+cd [path to the directory]
+
+#to turn the directory into local reprository ( #this create the .git folder inside the directory visible from view show hidden item)
+git init   
+
+#for status
+git status
+
+#to track a file and for all the files
+git add [filename]
+git add --all
+
+
+#to commit(to take snapshot of the file)
+git commit -m "first commit - committing all files to the repository"
+
+#changes after committing can be view by
+git status
+git diff
+
+#to add the changes to history book
+git add [filename.htm]
+
+
+#to delete
+git rm "{filename]"
+
+
+#to change file name
+git mv "[oldfilename]" "[newfilename]
+
+#to commit the new change
+git commit -m "changed the file name"
+
+
+#to review all the commit you have done so far
+git log
+
+#to exit log view press Q
+q
+:x
+#for the first line
+git log --oneline
+
+#to get help
+git help log
+
+#setting up additional branches
+git branch [new branch name]
+
+#to confirm how many branch we have now
+git branch
+
+#after modifying a branch u need to commit it
+git commit -a -
+
+#to switch to another branch
+git switch [branch name]
+
+
+
+#to merge two branch together
+git
+
+
+
+
+
+
+
+
